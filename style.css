@@ -1,0 +1,74 @@
+/*
+Theme Name: Меню WordPress
+Author: Feodoraxis
+Author URI: https://feodoraxis.ru/
+Description: Пример расширения возможностей меню WordPress. Для работы обязательно использовать плагин Carbon Fields.
+*/
+
+body{
+    font-family: Arial;
+}
+
+.catalog_menu-category{
+    display: none;
+}
+
+.catalog_menu-category.is-active{
+    display: block;
+}
+
+.catalog_menu-flexbox{
+    display: flex;
+}
+
+.catalog_menu-nav{
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+.catalog_menu-products{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.catalog_menu-products-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog_menu-nav {
+    padding: 30px;
+}
+
+.catalog_menu-nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog_menu-nav > ul > li{
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.catalog_menu-nav > ul > li > a{
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.catalog_menu-nav > ul > li > * a:hover{
+    text-decoration: underline;
+}
+
+.catalog_menu-nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.catalog_menu-nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+.catalog_menu-product {
+    margin-right: 30px;
+}
